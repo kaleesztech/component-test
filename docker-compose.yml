@@ -1,0 +1,7 @@
+version: "2"
+services:
+  nginx:
+    image: docker.io/nginx
+    container_name: nginx
+    ports:
+      - 80
